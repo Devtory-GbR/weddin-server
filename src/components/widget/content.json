@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_widget_contents",
+  "info": {
+    "displayName": "FreeText",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

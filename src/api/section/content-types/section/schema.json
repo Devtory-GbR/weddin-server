@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Sections",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "sort": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true,
+      "type": "integer",
+      "unique": false
+    },
+    "showInMenu": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "widget.timeline",
+        "widget.content",
+        "widget.hotels",
+        "widget.wishlist",
+        "widget.contact-couple",
+        "widget.contact",
+        "divider.section-divider",
+        "divider.google-map-divider",
+        "style.spacer",
+        "widget.confirm",
+        "widget.when-and-where",
+        "widget.need-hotel-input",
+        "widget.need-shuttel-input"
+      ]
+    },
+    "invitation_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::invitation-type.invitation-type"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_widget_hotels",
+  "info": {
+    "displayName": "hotel",
+    "icon": "hotel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Hotel 1912"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "richtext",
+      "default": "some text to maybe describe the price of the room, number of reserved rooms or something else"
+    },
+    "address1": {
+      "type": "string",
+      "default": "Bahnhofspl. 3"
+    },
+    "address2": {
+      "type": "string",
+      "default": "16278 Angermünde"
+    },
+    "mapsURL": {
+      "type": "string",
+      "default": "https://goo.gl/maps/Tkrryr2aYitifAR97"
+    },
+    "phone": {
+      "type": "string",
+      "default": "033312980270"
+    },
+    "email": {
+      "type": "email",
+      "default": "info@hotel1912.de"
+    },
+    "url": {
+      "type": "string",
+      "default": "https://hotel1912.de/"
+    }
+  }
+}

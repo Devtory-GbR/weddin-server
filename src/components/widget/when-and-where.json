@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_widget_when_and_wheres",
+  "info": {
+    "displayName": "WhenAndWhere",
+    "icon": "glass-cheers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "invitation_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::invitation-type.invitation-type"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Church Wedding"
+    },
+    "time": {
+      "type": "string",
+      "required": true,
+      "default": "13:00"
+    },
+    "whereTitle": {
+      "type": "string",
+      "default": "St.-Nikolai-Kirche Briest"
+    },
+    "whereAddress1": {
+      "type": "string",
+      "default": "Hauptstraße 36"
+    },
+    "whereAddress2": {
+      "type": "string",
+      "default": "16306 Passow OT Briest"
+    },
+    "googleMapsURL": {
+      "type": "string",
+      "default": "https://goo.gl/maps/WV59aydrVJHQxFua9"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_in_settings",
+  "info": {
+    "singularName": "sign-in-setting",
+    "pluralName": "sign-in-settings",
+    "displayName": "SignIn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "signInRequired": {
+      "type": "boolean",
+      "default": true,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Hallo lieber Hochzeitsgast"
+    },
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Bitte Code von der Einladungskarte eingeben"
+    }
+  }
+}

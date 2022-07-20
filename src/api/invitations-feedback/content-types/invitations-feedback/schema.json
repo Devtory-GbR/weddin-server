@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invitations_feedbacks",
+  "info": {
+    "singularName": "invitations-feedback",
+    "pluralName": "invitations-feedbacks",
+    "displayName": "InvitationsFeedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "needShuttle": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "needHotel": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "invitation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "invitations_feedback"
+    }
+  }
+}

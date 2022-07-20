@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "guest_feedbacks",
+  "info": {
+    "singularName": "guest-feedback",
+    "pluralName": "guest-feedbacks",
+    "displayName": "GuestFeedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plusOneForSinglePerson": {
+      "type": "boolean",
+      "default": true,
+      "required": true,
+      "pluginOptions": {}
+    },
+    "canEditAfterConfirmLatest": {
+      "type": "boolean",
+      "default": true,
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

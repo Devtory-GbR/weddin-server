@@ -1,0 +1,30 @@
+{
+  "name": "weddin-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WeddIn Backend to design your personal wedding page",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.2.3",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/strapi": "4.2.3",
+    "moment": "^2.29.1",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "Martin Weber <martinweber.9393@gmail.com>"
+  },
+  "strapi": {
+    "uuid": "299b8ada-ba12-4294-bbba-50fc69881c43"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

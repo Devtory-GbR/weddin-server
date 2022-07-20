@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_widget_need_shuttel_inputs",
+  "info": {
+    "displayName": "NeedShuttleInput",
+    "icon": "flag-checkered",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

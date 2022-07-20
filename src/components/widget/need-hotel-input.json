@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_widget_need_hotel_inputs",
+  "info": {
+    "displayName": "NeedHotelInput",
+    "icon": "check-square"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

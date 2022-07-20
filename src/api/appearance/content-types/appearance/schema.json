@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "appearances",
+  "info": {
+    "singularName": "appearance",
+    "pluralName": "appearances",
+    "displayName": "Appearance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7,
+      "default": "#7f0000"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "maxLength": 7,
+      "minLength": 7,
+      "required": true,
+      "default": "#534bae"
+    },
+    "accentColor": {
+      "type": "string",
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7,
+      "default": "#9e9e9e"
+    },
+    "accentColorDarken": {
+      "type": "string",
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7,
+      "default": "#757575"
+    },
+    "titleColor": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "secondary",
+      "required": true
+    },
+    "dividerTitleColor": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "secondary",
+      "required": true
+    }
+  }
+}

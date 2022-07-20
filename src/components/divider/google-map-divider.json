@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_divider_google_map_dividers",
+  "info": {
+    "displayName": "GoogleMapDivider",
+    "icon": "map-marked-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "pin": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "latitude": {
+      "type": "float",
+      "required": true,
+      "default": 53.152697
+    },
+    "lengthening": {
+      "type": "float",
+      "required": true,
+      "default": 14.058462
+    },
+    "API_KEY": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

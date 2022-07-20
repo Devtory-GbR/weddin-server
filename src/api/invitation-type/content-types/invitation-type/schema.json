@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invitation_types",
+  "info": {
+    "singularName": "invitation-type",
+    "pluralName": "invitation-types",
+    "displayName": "InvitationTypes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "main"
+    },
+    "default": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "canConfirm": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

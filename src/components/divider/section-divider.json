@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_divider_section_dividers",
+  "info": {
+    "displayName": "SectionDivider",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

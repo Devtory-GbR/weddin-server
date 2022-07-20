@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_timelines",
+  "info": {
+    "displayName": "TimlineEntry",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

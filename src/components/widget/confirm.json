@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_widget_confirms",
+  "info": {
+    "displayName": "Confirm",
+    "icon": "concierge-bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {}
+}

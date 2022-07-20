@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guests",
+  "info": {
+    "singularName": "guest",
+    "pluralName": "guests",
+    "displayName": "Guests",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "attend": {
+      "type": "enumeration",
+      "enum": [
+        "unknown",
+        "yes",
+        "no"
+      ],
+      "default": "unknown",
+      "required": true
+    },
+    "fixed": {
+      "type": "boolean",
+      "default": true
+    },
+    "stageOfLife": {
+      "type": "enumeration",
+      "enum": [
+        "adult",
+        "child",
+        "baby"
+      ],
+      "required": true,
+      "default": "adult"
+    },
+    "invitation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "guests"
+    },
+    "guest_preference": {
+      "type": "json"
+    }
+  }
+}
