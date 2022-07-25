@@ -13,8 +13,9 @@
     "@strapi/plugin-i18n": "4.2.3",
     "@strapi/plugin-users-permissions": "4.2.3",
     "@strapi/strapi": "4.2.3",
+    "better-sqlite3": "7.4.6",
     "moment": "^2.29.1",
-    "better-sqlite3": "7.4.6"
+    "strapi-plugin-import-export-entries": "^1.6.9"
   },
   "author": {
     "name": "Martin Weber <martinweber.9393@gmail.com>"
