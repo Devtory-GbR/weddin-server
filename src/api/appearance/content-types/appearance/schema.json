@@ -13,48 +13,34 @@
   "pluginOptions": {},
   "attributes": {
     "primaryColor": {
-      "type": "string",
+      "type": "customField",
       "required": true,
-      "maxLength": 7,
-      "minLength": 7,
-      "default": "#7f0000"
+      "customField": "plugin::color-picker.color"
     },
     "secondaryColor": {
-      "type": "string",
-      "maxLength": 7,
-      "minLength": 7,
+      "type": "customField",
       "required": true,
-      "default": "#534bae"
+      "customField": "plugin::color-picker.color"
     },
     "accentColor": {
-      "type": "string",
+      "type": "customField",
       "required": true,
-      "maxLength": 7,
-      "minLength": 7,
-      "default": "#9e9e9e"
+      "customField": "plugin::color-picker.color"
     },
     "accentColorDarken": {
-      "type": "string",
+      "type": "customField",
       "required": true,
-      "maxLength": 7,
-      "minLength": 7,
-      "default": "#757575"
+      "customField": "plugin::color-picker.color"
     },
     "titleColor": {
       "type": "enumeration",
-      "enum": [
-        "primary",
-        "secondary"
-      ],
+      "enum": ["primary", "secondary"],
       "default": "secondary",
       "required": true
     },
     "dividerTitleColor": {
       "type": "enumeration",
-      "enum": [
-        "primary",
-        "secondary"
-      ],
+      "enum": ["primary", "secondary"],
       "default": "secondary",
       "required": true
     }
