@@ -10,9 +10,9 @@ npm run build
 npm run develoop
 ```
 
-## Demo DB
+## Init DB
 
-in the folder _res/demo_db/_ you will find a example db - **data.db**.
+in the folder _res/init_db/_ you will find a example db - **data.db**.
 In the database there is already a lot of stuff set auto. e.g.
 
 - Roles for the User
@@ -20,6 +20,8 @@ In the database there is already a lot of stuff set auto. e.g.
 - Invitations
 - Guests
 - a lot of example content in the sections
+
+These is the database wich will ship out to the customer as starter - so that all important stuff ist already init. Also it is good for start when developing :)
 
 ### Credentials Backend
 
