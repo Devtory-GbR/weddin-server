@@ -5,10 +5,10 @@ module.exports = (config, { strapi }) => {
 
     if (config && config.userField) userField = config.userField;
 
-    if (ctx.state.user.role.type === "admin") {
-      // Go to next policy or will reach the controller's action.
-      return await next();
-    }
+    // if (ctx.state.user.role.type === "admin") {
+    //   // Go to next policy or will reach the controller's action.
+    //   return await next();
+    // }
 
     // [find, count] Only query entities that owned by the current user
     if (ctx.request.method === "GET") {
@@ -55,7 +55,7 @@ module.exports = (config, { strapi }) => {
     // [create] After create we will set the owner field value
     if (ctx.request.method === "POST") {
       if (ctx.response.body.data) {
-        const userFieldUpdateData = {data: {}};
+        const userFieldUpdateData = { data: {} };
         userFieldUpdateData.data[userField] = userId;
 
         await strapi.entityService.update(
