@@ -10,22 +10,31 @@ npm run build
 npm run develoop
 ```
 
-## Init DB
+## StartUp Data
 
-in the folder _res/init_db/_ you will find a example db - **data.db**.
-In the database there is already a lot of stuff set auto. e.g.
+In the folder _res_ you will find two different startup types
 
-- Roles for the User
-- Routes
-- Invitations
-- Guests
-- a lot of example content in the sections
+- **Init**: minimal db with all important stuff and some introduction - perfect as a db for a new site
+- **Demo**: filled with a lot of dummy data - perfect for test and developing
 
-These is the database wich will ship out to the customer as starter - so that all important stuff ist already init. Also it is good for start when developing :)
+### Demo Data
+
+- stop the server
+- copy _res/demo/db/data.db_ to _.tmp_.
+- copy _res/demo/uploads/_ to _public/uploads/_.
+- restart the server
+
+Credentials to log in can be found below.
+
+### Init Data
+
+- stop the server
+- copy _res/init/db/data.db_ to _.tmp_.
+- restart the server
+
+Credentials to log in can be found below.
 
 ### Credentials Backend
-
-you can just use it as a starter, the creadentails for the backend in this demo db are the following:
 
 **User**: admin@weddin.site
 
