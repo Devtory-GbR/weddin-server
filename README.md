@@ -67,7 +67,7 @@ NODE_ENV=production yarn start
 ### RUN Prod Server - with PM2 recommended
 
 ```
-NODE_ENV=production pm2 start server.js --name content.XXXX.weedin.site
+NODE_ENV=production pm2 start server.js --name XXXX.content.weddin.site
 ```
 
 ## Settings
