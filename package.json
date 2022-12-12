@@ -1,7 +1,7 @@
 {
   "name": "weddin-server",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "WeddIn Backend to design your personal wedding page",
   "scripts": {
     "develop": "strapi develop",
