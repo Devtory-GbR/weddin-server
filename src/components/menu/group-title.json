@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_menu_group_titles",
+  "info": {
+    "displayName": "GroupTitle",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

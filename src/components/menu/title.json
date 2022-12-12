@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_titles",
+  "info": {
+    "displayName": "Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}
