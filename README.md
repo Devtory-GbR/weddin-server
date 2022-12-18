@@ -34,11 +34,17 @@ Credentials to log in can be found below.
 
 Credentials to log in can be found below.
 
-### Credentials Backend
+### Credentials Backend - Admin
 
 **User**: admin@weddin.site
 
 **PW**: AdminWeddin1
+
+### Credentials Backend - Editor/Author
+
+**User**: demo@weddin.site
+
+**PW**: DemoWeddin1
 
 ### Dummy Invitations
 
