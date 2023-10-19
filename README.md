@@ -8,7 +8,8 @@
 <p align="center">Create a digital custom invitation card for your wedding with WeddIn and send the link to your guests. Playfully build a website with all the content around your event, without any programming knowledge.</p>
 <p align="center"></p>
 <p align="center">
-  <a target="_blank" href="https://weddin.site/doc">Documentation</a> · <a target="_blank" href="https://weddin.site/demo">Live Demo</a>
+<a target="_blank" href="https://weddin.site/doc">Documentation</a> · <a target="_blank" href="https://weddin.site/demo">Live Demo</a>
+
 </p>
 
 # WeddIn Server<!-- omit in toc -->
@@ -16,7 +17,7 @@
 <p>
 
   <a href="https://strapi.io/">
-    <img src="https://img.shields.io/badge/dynamic/json?label=Strapi&query=dependencies.@strapi/strapi&url=https://raw.githubusercontent.com/Devtory-GbR/weddin-server/master/package.json" />
+    <img src="https://img.shields.io/badge/Strapi-^4.6.0-blue" />
   </a>
 
 </p>
