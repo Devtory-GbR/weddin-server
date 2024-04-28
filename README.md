@@ -124,8 +124,22 @@ $ NODE_ENV=production yarn build
 # just fot test it is works
 $ NODE_ENV=production yarn start
 
-# use pm2 to run as service in background
+# use pm2 to run as service in background - NOT boot save just for test pm2
 $ NODE_ENV=production pm2 start server.js --name XXXX.content.weddin.site
+
+# best practice: use pm2 to run as service an in background - BOOT save
+# add in  /root/ecosystem.config the new app - looks like:
+# {
+#   name: "demo.content.weddin.site",
+#   cwd: "/var/www/demo.content.weddin.site/",
+#   script: "./server.js",
+#   env: {
+#     NODE_ENV: "production",
+#   },
+# }
+
+# then run it with
+$ pm2 start ecosystem.config
 ```
 
 ## 🧾 License
