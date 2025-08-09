@@ -73,7 +73,8 @@
         "widget.confirm",
         "widget.when-and-where",
         "widget.need-hotel-input",
-        "widget.need-shuttel-input"
+        "widget.need-shuttel-input",
+        "widget.seatplan"
       ]
     },
     "invitation_types": {

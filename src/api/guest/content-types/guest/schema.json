@@ -48,6 +48,12 @@
     },
     "guest_preference": {
       "type": "json"
+    },
+    "table": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::table.table",
+      "inversedBy": "guests"
     }
   }
 }
